@@ -2,8 +2,9 @@
   "name": "bocchi-bot",
   "version": "1.0.0",
   "description": "Discord Bot wit social anxiety",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/danoeer/bocchi-bot/issues"
   },
-  "homepage": "https://github.com/danoeer/bocchi-bot#readme"
+  "homepage": "https://github.com/danoeer/bocchi-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
 }
