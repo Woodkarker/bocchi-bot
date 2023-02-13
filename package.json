@@ -1,5 +1,6 @@
 {
   "name": "bocchi-bot",
+  "type": "module",
   "version": "1.0.0",
   "description": "Discord Bot wit social anxiety",
   "main": "src/index.js",
